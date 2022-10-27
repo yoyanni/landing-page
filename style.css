@@ -175,6 +175,15 @@ li > a {
   padding: 6px 32px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
 /* General Styling */
 
 *,
