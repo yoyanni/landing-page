@@ -130,6 +130,7 @@ li > a {
 .quote {
   display: flex;
   flex-direction: column;
+  gap: 8px;
   margin: 0 30%;
   padding-top: 96px;
   padding-bottom: 62px;
@@ -147,6 +148,31 @@ li > a {
   align-self: flex-end;
   font-weight: 900;
   font-size: 20px;
+}
+
+/* Fourth */
+
+.fourth {
+  margin: 0 17.5%;
+  padding: 64px 0;
+}
+
+.action {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 32px 64px;
+  border-radius: 8px;
+}
+
+.action button {
+  border: 2px solid #f9faf8;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  align-self: flex-end;
+  padding: 6px 32px;
 }
 
 /* General Styling */
