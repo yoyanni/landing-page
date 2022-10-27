@@ -121,6 +121,34 @@ li > a {
   text-align: center;
 }
 
+/* Third */
+
+.third {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+  padding-top: 96px;
+  padding-bottom: 62px;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+  align-self: flex-end;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 20px;
+}
+
 /* General Styling */
 
 *,
