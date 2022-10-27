@@ -3,14 +3,17 @@
 .hero {
   font-size: 18px;
   color: #e5e7eb;
+  background-color: #1f2937;
 }
 
+/* Nav */
+
 nav {
-  background-color: #1f2937;
   color: #f9faf8;
   display: flex;
-  justify-content: space-around;
-  padding: 16px;
+  justify-content: space-between;
+  padding: 16px 0;
+  margin: 0 17.5%;
 }
 
 .logo {
@@ -20,7 +23,18 @@ nav {
   font-weight: 700;
 }
 
-ul {
+.nav-links {
+  display:flex;
+  gap: 24px;
+  align-items: center;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+/* ul {
   display: flex;
   gap: 16px;
 }
@@ -32,6 +46,43 @@ li {
 li > a {
   color: #f9faf8;
   text-decoration: none;
+} */
+
+/* Awesome */
+
+.awesome {
+  display: flex;
+  padding: 96px 0;
+  margin: 0 17.5%;
+  gap: 32px;
+}
+
+.awesome > * {
+  flex: 1 1 30%;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+/* Image placeholder */
+.awesome div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #666;
+}
+
+.awe-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 8px;
 }
 
 /* General Styling */
