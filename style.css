@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-links {
-  display:flex;
+  display: flex;
   gap: 24px;
   align-items: center;
 }
@@ -83,6 +83,42 @@ li > a {
   border-radius: 4px;
   padding: 8px 16px;
   margin-top: 8px;
+}
+
+/* Second */
+
+.second {
+  margin: 0 20%;
+  padding: 64px;
+  padding-bottom: 128px;
+}
+
+.second h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-image {
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.img-container p:nth-child(2) {
+  text-align: center;
 }
 
 /* General Styling */
